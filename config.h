@@ -8,13 +8,13 @@ static const char *fonts[] = {
 };
 static const char *prompt      = "";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#240041" },
-	[SchemeSel] = { "#00ffb7", "#900048" },
-	[SchemeOut] = { "#000000", "#00ffff" },
+								/*     fg         bg       */
+	[SchemeNorm]	= { "#8d659c", "#240041" },
+	[SchemeSel] 	= { "#00ffb7", "#900048" },
+	[SchemeOut] 	= { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 8;
+static unsigned int lines      = 10;
 
 /*
  * Characters not considered part of a word while deleting words
